@@ -1,0 +1,17 @@
+ALGORITHM :Palindrome
+VAR
+    tab FLOAT
+    i , j INTEGER
+BEGIN
+    write("veuiller saisir un tableau")
+    read("tableau")
+    FOR i FROM 0 TO tab.length-1  DO
+     FOR j FROM 0 TO tab.length-1 DO
+          IF (tab[i]==tab[j]) THEN
+              write("le mot est un palindrome")
+             ELSE
+             ("le mot n'est un palindrome")
+         END_IF   
+      END_FOR
+    END_FOR
+END
